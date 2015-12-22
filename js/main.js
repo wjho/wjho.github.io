@@ -156,7 +156,7 @@ function showEgg(){
     $('#close-button').fadeIn('slow');
     kaelEgg.reset();
 }
-var kaelEggCombo = kaelEgg.sequence_combo("q w e r", function() {
+var kaelEggCombo = kaelEgg.sequence_combo("s b", function() {
     lives = 0.8;
     $('.block').show();
     $('.egg').addClass('bounceIn').removeClass('bounceOut');
