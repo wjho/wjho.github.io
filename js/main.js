@@ -160,7 +160,7 @@ var kaelEggCombo = kaelEgg.sequence_combo("q w e r", function() {
     lives = 0.8;
     $('.block').show();
     $('.egg').addClass('bounceIn').removeClass('bounceOut');
-    $('.egg').append('<iframe id="egg-frame" style="display: none;margin-top:0;" src="http://kael.qiniudn.com/" frameborder="0" width="100%" height="700px" scrolling="no">');
+    $('.egg').append('<iframe id="egg-frame" style="display: none;margin-top:0; marginLeft:100%;" src="http://7q5eqz.com1.z0.glb.clouddn.com/20151222111718.jpg" frameborder="0" width="100%" height="700px"  scrolling="no">');
 //    iframe onload taken from http://www.nczonline.net/blog/2009/09/15/iframes-onload-and-documentdomain/
     var iframe = document.getElementById('egg-frame');
     if (iframe.attachEvent){
